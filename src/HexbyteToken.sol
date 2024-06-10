@@ -7,6 +7,6 @@ contract HexbyteToken is ERC20{
     constructor() ERC20("Hexbyte Token", "HT"){
         _mint(msg.sender, 1000000 * (10 ** decimals()));
     }
-
     
+
 }
